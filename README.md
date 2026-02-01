@@ -2,6 +2,13 @@
 
 A Claude Code skill based on [Luke Stahl's Developer Marketing Handbook](https://lukestahl.io/handbook/) that helps create authentic, technical content and strategies for reaching developer audiences.
 
+## What's Included
+
+- **SKILL.md** - The Claude Code skill definition
+- **developer-writing-style-guide.md** - Comprehensive writing guide with AI pattern removal
+- **template-content-strategy.md** - Customizable content strategy framework
+- **template-content-tracker.csv** - Content production tracking template
+
 ## Installation
 
 ### Recommended (clone directly into Claude Code skills directory)
@@ -11,14 +18,18 @@ mkdir -p ~/.claude/skills
 git clone https://github.com/yourusername/developer-marketing.git ~/.claude/skills/developer-marketing
 ```
 
-### Manual install/update (only the skill file)
+This ensures Claude has access to all templates and guides.
 
-If you already have this repo cloned (or you downloaded `SKILL.md`), copy the skill file into Claude Code's skills directory:
+### Manual install (only the skill file)
+
+If you only want the skill without templates:
 
 ```bash
 mkdir -p ~/.claude/skills/developer-marketing
 cp SKILL.md ~/.claude/skills/developer-marketing/
 ```
+
+Note: The skill references template files, so the full clone is recommended.
 
 ## Usage
 
@@ -37,6 +48,30 @@ Help me write a technical blog post about our new API
 Create a developer advocacy strategy for our open source project
 Review this documentation for developer audience fit
 ```
+
+## Capabilities
+
+This skill helps you **create, evaluate, and manage** developer content:
+
+### Content Creation
+- Write blog posts, tutorials, and technical content using the developer writing style guide
+- Remove AI patterns automatically (insight theater, borrowed credibility, promotional tone)
+- Generate content that sounds like it's written by someone accountable for the system
+
+### Content Review
+- Evaluate drafts for clarity, technical accuracy, and developer tone
+- Apply the comprehensive checklist (ownership, substance, specificity, evidence)
+- Identify and remove generic marketing language
+
+### Strategy & Planning
+- Build customized content strategies with persona mapping and funnel alignment
+- Set up content tracking systems for production workflow
+- Plan campaigns that answer: What problem? What proof? What's next?
+
+### Templates
+- **Content Strategy Template** - DACI framework, priority roadmap, persona mapping, distribution channels
+- **Content Tracker** - Manage production lifecycle, approval workflow, performance tracking
+- **Writing Style Guide** - Core principles, AI pattern removal, final publishing checklist
 
 ## Overview
 
@@ -173,6 +208,7 @@ The goal is to prove that trust earned from developers shows up later in product
 
 ## Version History
 
+- **1.1.0** - Add templates and writing style guide (content creation, strategy planning, tracking)
 - **1.0.0** - Initial release
 
 ## License
