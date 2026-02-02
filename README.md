@@ -15,7 +15,7 @@ A Claude Code skill based on [Luke Stahl's Developer Marketing Handbook](https:/
 
 ```bash
 mkdir -p ~/.claude/skills
-git clone https://github.com/yourusername/developer-marketing.git ~/.claude/skills/developer-marketing
+git clone https://github.com/stahlwalker/developer-marketing.git ~/.claude/skills/developer-marketing
 ```
 
 This ensures Claude has access to all templates and guides.
