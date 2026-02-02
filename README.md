@@ -54,28 +54,30 @@ Review this documentation for developer audience fit
 This skill helps you **create, evaluate, and manage** developer content:
 
 ### Content Creation
+
 - Write blog posts, tutorials, and technical content using the developer writing style guide
 - Remove AI patterns automatically (insight theater, borrowed credibility, promotional tone)
 - Generate content that sounds like it's written by someone accountable for the system
 
 ### Content Review
+
 - Evaluate drafts for clarity, technical accuracy, and developer tone
 - Apply the comprehensive checklist (ownership, substance, specificity, evidence)
 - Identify and remove generic marketing language
 
 ### Strategy & Planning
+
 - Build customized content strategies with persona mapping and funnel alignment
 - Set up content tracking systems for production workflow
 - Plan campaigns that answer: What problem? What proof? What's next?
 
 ### Templates
+
 - **Content Strategy Template** - DACI framework, priority roadmap, persona mapping, distribution channels
 - **Content Tracker** - Manage production lifecycle, approval workflow, performance tracking
 - **Writing Style Guide** - Core principles, AI pattern removal, final publishing checklist
 
 ## Overview
-
-Based on the [Developer Marketing Handbook](https://lukestahl.io/handbook/) by [Luke Stahl](https://lukestahl.io/).
 
 Developer marketing builds trust first, pipeline second. The work connects your product to how developers actually build and helps that credibility translate into adoption and revenue.
 
@@ -86,11 +88,13 @@ Developer marketing builds trust first, pipeline second. The work connects your 
 ## Core Framework
 
 ### Goals
+
 Developer marketing builds trust first, pipeline second. Success isn't clicks or vanity metrics—it's measurable engagement that creates product-qualified leads, builds influence across teams, and contributes to both product-led and sales-led growth.
 
 A great developer experience is the foundation. It starts with discoverability, continues through docs, and carries into the product itself.
 
 ### Strategy
+
 Start with reality, not aspiration. Map where your product fits in the developer workflow, then help them do that job faster or with less friction.
 
 **Lead with clarity.** Explain what it is, what it does, and why it matters.
@@ -101,22 +105,22 @@ Show the system behind the product. Architecture, examples, and tradeoffs explai
 
 **Awareness → Evaluation → Adoption → Advocacy**
 
-| Stage | Where It Happens | What Matters |
-|-------|-----------------|--------------|
-| **Awareness** | GitHub, Reddit, newsletters, blogs | Be present where developers already spend time |
-| **Evaluation** | Docs, demos, sandboxes | The docs are the real homepage—accuracy and structure matter more than polish |
-| **Adoption** | First success experience | How fast they reach first success determines adoption |
-| **Advocacy** | Community, word-of-mouth | When they start teaching others what they learned from you |
+| Stage          | Where It Happens                   | What Matters                                                                  |
+| -------------- | ---------------------------------- | ----------------------------------------------------------------------------- |
+| **Awareness**  | GitHub, Reddit, newsletters, blogs | Be present where developers already spend time                                |
+| **Evaluation** | Docs, demos, sandboxes             | The docs are the real homepage—accuracy and structure matter more than polish |
+| **Adoption**   | First success experience           | How fast they reach first success determines adoption                         |
+| **Advocacy**   | Community, word-of-mouth           | When they start teaching others what they learned from you                    |
 
 ### Messaging Pillars
 
 Be clear first. Be clever only if it helps. Build around three pillars:
 
-| Pillar | What It Means |
-|--------|---------------|
-| **Speed** | Faster builds, fewer tickets |
+| Pillar         | What It Means                         |
+| -------------- | ------------------------------------- |
+| **Speed**      | Faster builds, fewer tickets          |
 | **Efficiency** | Consolidated stack, lower maintenance |
-| **Control** | Safe scale, long-term confidence |
+| **Control**    | Safe scale, long-term confidence      |
 
 If you can back it with code, data, or proof, keep it. If it only sounds good, cut it.
 
@@ -124,15 +128,15 @@ If you can back it with code, data, or proof, keep it. If it only sounds good, c
 
 Create personas based on who buys the product and who actually uses it.
 
-| Persona | Cares About | Content They Need |
-|---------|-------------|-------------------|
-| **CTO / Engineering Leader** | Governance, ROI | Architecture docs, security, scale proof |
-| **Senior Engineer** | Performance, flexibility, code quality | Deep technical content, benchmarks, integration guides |
-| **Implementation Architect** | Integration, scale | System design, API references, migration paths |
-| **Frontend Developer** | UI/UX integration, performance | Component docs, examples, playground |
-| **Full-stack Developer** | End-to-end workflow | Complete tutorials, stack integration |
-| **App Developer** | Speed to market, reliability | Quick starts, SDKs, common patterns |
-| **Ops/DevOps** | Deployment, monitoring, reliability | Infrastructure guides, observability, security |
+| Persona                      | Cares About                            | Content They Need                                      |
+| ---------------------------- | -------------------------------------- | ------------------------------------------------------ |
+| **CTO / Engineering Leader** | Governance, ROI                        | Architecture docs, security, scale proof               |
+| **Senior Engineer**          | Performance, flexibility, code quality | Deep technical content, benchmarks, integration guides |
+| **Implementation Architect** | Integration, scale                     | System design, API references, migration paths         |
+| **Frontend Developer**       | UI/UX integration, performance         | Component docs, examples, playground                   |
+| **Full-stack Developer**     | End-to-end workflow                    | Complete tutorials, stack integration                  |
+| **App Developer**            | Speed to market, reliability           | Quick starts, SDKs, common patterns                    |
+| **Ops/DevOps**               | Deployment, monitoring, reliability    | Infrastructure guides, observability, security         |
 
 Write for what each person owns, not what you wish they cared about.
 
@@ -144,24 +148,24 @@ Strong content earns attention because it's useful. Lead with the outcome or ins
 
 ### Core Content Types
 
-| Type | Purpose | Best Practices |
-|------|---------|----------------|
-| **Blog posts** | Tutorials, technical breakdowns, opinionated takes | Ground in experience, show working examples |
-| **Guides and tutorials** | Step-by-step instructions | Lead to a working result |
-| **Integration/workflow content** | Explain how tools connect | Show where they fit in developer's process |
-| **Technical guides & code examples** | Deep implementation detail | For experienced readers |
-| **Explainer/glossary content** | Answer specific questions | Clear, factual definitions |
-| **Video/live sessions** | Demos, interviews, walkthroughs | Show real workflows |
-| **Research and surveys** | Industry insights | Help developers understand their field |
+| Type                                 | Purpose                                            | Best Practices                              |
+| ------------------------------------ | -------------------------------------------------- | ------------------------------------------- |
+| **Blog posts**                       | Tutorials, technical breakdowns, opinionated takes | Ground in experience, show working examples |
+| **Guides and tutorials**             | Step-by-step instructions                          | Lead to a working result                    |
+| **Integration/workflow content**     | Explain how tools connect                          | Show where they fit in developer's process  |
+| **Technical guides & code examples** | Deep implementation detail                         | For experienced readers                     |
+| **Explainer/glossary content**       | Answer specific questions                          | Clear, factual definitions                  |
+| **Video/live sessions**              | Demos, interviews, walkthroughs                    | Show real workflows                         |
+| **Research and surveys**             | Industry insights                                  | Help developers understand their field      |
 
 ### Content Strategy Buckets
 
-| Bucket | Purpose | Content Types |
-|--------|---------|---------------|
-| **Awareness** | Generate buzz | Hot takes, thought leadership, conversation starters |
-| **Acquisition** | Bring new developers in | Problem-solving tutorials, guides, explainers |
-| **Enablement** | Help existing users succeed | Deep tutorials, documentation extensions, how-tos |
-| **Convert Paid** | Drive upgrades or signups | Feature-specific walkthroughs, advanced use cases |
+| Bucket           | Purpose                     | Content Types                                        |
+| ---------------- | --------------------------- | ---------------------------------------------------- |
+| **Awareness**    | Generate buzz               | Hot takes, thought leadership, conversation starters |
+| **Acquisition**  | Bring new developers in     | Problem-solving tutorials, guides, explainers        |
+| **Enablement**   | Help existing users succeed | Deep tutorials, documentation extensions, how-tos    |
+| **Convert Paid** | Drive upgrades or signups   | Feature-specific walkthroughs, advanced use cases    |
 
 Each piece should fit into one of these buckets and serve a clear purpose. Clarity is the standard. Use it to earn credibility.
 
