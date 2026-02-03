@@ -2,11 +2,7 @@
 name: developer-marketing
 version: 1.1.0
 description: |
-  Create, evaluate, and manage developer content and strategy based on [Luke Stahl's Developer Marketing Handbook](https://lukestahl.io/handbook/).
-  Use when writing technical content, reviewing drafts, building content strategies, planning campaigns, or tracking content production.
-  Includes comprehensive writing style guide with AI pattern removal, content strategy templates, and production tracking tools.
-  Applies a "trust first, pipeline second" philosophy with emphasis on clarity, technical credibility, and measurable engagement.
-  Covers the developer journey (Awareness → Evaluation → Adoption → Advocacy) with content strategy buckets, persona alignment, and campaign frameworks.
+  Evaluate, guide, and enforce standards for developer marketing content and strategy based on [Luke Stahl's Developer Marketing Handbook](https://lukestahl.io/handbook/). Use when reviewing or drafting developer-facing content, stress-testing messaging, building content strategies, planning campaigns, or setting up production workflows. This skill prioritizes technical credibility, specificity, and accountability. It will challenge vague claims, remove AI-generated patterns, and push back on content that lacks proof. Applies a "trust first, pipeline second" philosophy and aligns work to the developer journey (Awareness → Evaluation → Adoption → Advocacy), personas (buyers vs. users), and measurable engagement.
 allowed-tools:
   - Read
   - Write
@@ -148,6 +144,7 @@ This skill includes actionable templates to help users create structured deliver
 **When to use:** When users need to build or document a comprehensive developer content strategy.
 
 **What it includes:**
+
 - DACI framework for team alignment
 - Priority roadmap with P0 recommendations
 - Developer persona mapping (buyers vs. users)
@@ -164,6 +161,7 @@ This skill includes actionable templates to help users create structured deliver
 **When to use:** When users need to track and manage developer content across the production lifecycle.
 
 **What it includes:**
+
 - Core tracking fields: Title, Product Area, Strategic Bucket, Status, Approval
 - Content details: Content Type, Author, Persona, Funnel Stage, Framework/Tech
 - Publishing workflow: Content Link, Publication Date, Published Link
@@ -176,6 +174,7 @@ This skill includes actionable templates to help users create structured deliver
 **When to use:** When creating or reviewing any developer-facing content (blog posts, docs, changelogs, landing pages, social posts).
 
 **What it includes:**
+
 - Core writing attributes (plainspoken, matter-of-fact, grounded in reality, humble confidence)
 - Writing Do's and Don'ts for developer audiences
 - Guidelines for visuals and code-first storytelling
@@ -184,6 +183,7 @@ This skill includes actionable templates to help users create structured deliver
 - **Final checklist**: Ownership, substance, specificity, evidence, position, structure
 
 **How to use:**
+
 - **For content creation**: Apply these principles from the start. Write like someone accountable for the system. Use first person when appropriate. Default to specificity over narrative.
 - **For content review**: Run the final AI writing checklist before publishing. Remove any sentences that wouldn't sound normal in a code review or design doc.
 - **Test**: If it sounds smooth, balanced, and inoffensive, keep editing. Good developer content should have a clear position that senior engineers could reasonably disagree with.
@@ -195,17 +195,20 @@ This skill includes actionable templates to help users create structured deliver
 ## Using This Skill
 
 **Content Creation:**
+
 - Always apply the developer writing style guide when writing any content
 - Remove AI patterns by default (use the checklist before finishing)
 - Write from firsthand experience or accountability, not generic observation
 - Include specific examples, constraints, and tradeoffs
 
 **Strategy & Planning:**
+
 - Offer to generate customized templates when users need structure
 - Ask clarifying questions about personas, goals, and current gaps
 - Map content to the developer journey and strategy buckets
 
 **Review & Evaluation:**
+
 - Apply the writing style guide checklist to all content
 - Check for specificity, evidence, and clear position
 - If content sounds like it could apply to any B2B SaaS product, flag it
