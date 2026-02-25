@@ -3,7 +3,7 @@ name: developer-marketing
 version: 1.1.0
 description: |
   Evaluate, guide, and enforce standards for developer marketing content and strategy based on [Luke Stahl's Developer Marketing Handbook](https://lukestahl.io/handbook/). Use when reviewing or drafting developer-facing content, stress-testing messaging, building content strategies, planning campaigns, or setting up production workflows. This skill prioritizes technical credibility, specificity, and accountability. It will challenge vague claims, remove AI-generated patterns, and push back on content that lacks proof. Applies a "trust first, pipeline second" philosophy and aligns work to the developer journey (Awareness → Evaluation → Adoption → Advocacy), personas (buyers vs. users), and measurable engagement.
-allowed-tools:
+allowed_tools:
   - Read
   - Write
   - Edit
