@@ -1,0 +1,17 @@
+name: Notify lukestahl.io
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger sync in Stahlwalker/lucasstahl
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.SITE_REPO_DISPATCH_TOKEN }}
+          repository: Stahlwalker/lucasstahl
+          event-type: skill-updated
